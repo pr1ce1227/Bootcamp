@@ -1,0 +1,18 @@
+Git Basics:
+   git init <folder> (this will intialize specified folder with git properties)
+   touch .gitignore (this will create a file where anything added will be ignored by git) 
+   git add <file>  (this is how files are added in preparation to be commited) 
+   git commit -m "Message" (this will commit everything added with a time stamp) 
+   git branch <name> (This will take current repo and make a duplicate as a branch) 
+   git checkout <hash>  (if don't include final it will move head to hash commit and you can view these files) 
+   git checkout main will return the head to the most recent commit 
+   git checkout <hash> <file> this will grab the specified file at the specified hash and stage it to be commited in the most recent commit, use this to revert file to old version) 
+   git branch -d <branch name> used to delete branches
+   git switch <branch> use this to switch between branches 
+
+Git Hub: 
+   git remote -v this will show you if any remote has been established 
+   git remote <name> <remote sssh> this will create a remote 
+   git push will push the latest commit to git hub 
+   git pull will grab the latest commit from github and pull it to your local machine  
+
