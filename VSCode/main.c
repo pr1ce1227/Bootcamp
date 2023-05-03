@@ -9,6 +9,7 @@ int main(int argc, char *argv[])
     printf("%d\n\r\n", argc);
     myfunc();
     // This is a new idea
+    // Main idea
     return 0;
 }
 
