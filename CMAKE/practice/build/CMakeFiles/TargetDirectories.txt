@@ -1,0 +1,7 @@
+/home/pr1ce12/Bootcamp/CMAKE/practice/build/CMakeFiles/math.dir
+/home/pr1ce12/Bootcamp/CMAKE/practice/build/CMakeFiles/game.dir
+/home/pr1ce12/Bootcamp/CMAKE/practice/build/CMakeFiles/edit_cache.dir
+/home/pr1ce12/Bootcamp/CMAKE/practice/build/CMakeFiles/rebuild_cache.dir
+/home/pr1ce12/Bootcamp/CMAKE/practice/build/sub/CMakeFiles/subtraction.dir
+/home/pr1ce12/Bootcamp/CMAKE/practice/build/sub/CMakeFiles/edit_cache.dir
+/home/pr1ce12/Bootcamp/CMAKE/practice/build/sub/CMakeFiles/rebuild_cache.dir
