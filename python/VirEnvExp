@@ -1,0 +1,17 @@
+# Set up a pointer to the repo where you will get python from and some needed packages
+sudo apt update
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa
+
+# Now install python plus the correct the venv module for that version of python
+sudo apt update
+sudo apt install python3.9 -y
+sudo apt-get install python3.9-venv -y
+
+
+# Create a virtual environment named myvenv using python3.9
+python3.9 -m venv ~/myvenv
+
+# add aliases to your .bashrc file 
+alias myvenv='source ~/myvenv/bin/activate'
+alias de='deactivate'
