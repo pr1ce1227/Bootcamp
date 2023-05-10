@@ -6,12 +6,12 @@ set_target_properties(<target executable>  <properties you want to change> ) # l
 
 # Directories (header files )
 include(<specific for cmake to build for whatever you plan to install this on>) #basically where you put everything that you want cmake to take into consideration when building 
-include_directories(<locations of where to look for header files>) # Non target specific # be sure your references a directory that holds the .h files 
+include_directories(<locations of where to look for header files>) # Non target specific 
 target_include_directories(<target> <public or private> <which header files>) # links headers to specific targets, public will share them with other linked targets private will not 
 
 #Libraries are pre-compiled source code, header files tell which function are in these libraries 
 add_library(<library Name> <Source files that are needed to generate pre-comppiled coded>)
-target_link_libraries(<library name of the one you just added>  <other libraries that your library is dependent on> )
+target_link_libraries(<target>  <libraries location> )
 link_directories(<location where to look for libraries> )
 
 # Set this variable to the name of libraries that board executables need to link to
@@ -22,7 +22,6 @@ set(XIL_VIVADO_PATH /tools/Xilinx/Vivado/2019.2)
 
 
 # Subdirectories to look for other CMakeLists.txt files
-# these will run their cmake and combine it with the main cmake file 
 add_subdirectory(lab1_helloworld)
 add_subdirectory(drivers)
 add_subdirectory(lab2_gpio)
@@ -36,11 +35,3 @@ add_subdirectory(lab9_project)
 
 
 
-# Key CMake function 
-    project - https://cmake.org/cmake/help/latest/command/project.html
-    add_library - https://cmake.org/cmake/help/latest/command/add_library.html
-    add_executable - https://cmake.org/cmake/help/latest/command/add_executable.html
-    target_include_directories - https://cmake.org/cmake/help/latest/command/target_include_directories.html
-    target_link_libraries - https://cmake.org/cmake/help/latest/command/target_link_libraries.html
-    target_link_directories - https://cmake.org/cmake/help/latest/command/target_link_directories.html
-    target_compile_features - https://cmake.org/cmake/help/latest/command/target_compile_features.html
