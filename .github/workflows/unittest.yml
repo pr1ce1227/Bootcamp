@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2 
       - name: unittest
-        run: python3 -m unittest /UnitTest/names.py
+        run: python3 -m unittest UnitTest/names.py
       - name: doctest 
-        run: python3 -m doctest /UnitTest/names.py
+        run: python3 -m doctest UnitTest/names.py
