@@ -17,7 +17,7 @@ def get_first_last(name):
 
 # add comment yes
 class Testing(unittest.TestCase):
-    def test_names(self)
+    def test_names(self):
         self.assertEqual(get_first_last("Caleb Price"), ("Caleb", "Price"))
     
     def test_golden_file(self):
