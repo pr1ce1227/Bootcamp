@@ -11,6 +11,16 @@ jobs:
         run: pip3 install pandas
       - name: unittest
         working-directory: UnitTest
+        run: python3 names.py
+
+  run-Tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2 
+      - name: install deps 
+        run: pip3 install pandas
+      - name: unittest
+        working-directory: UnitTest
         run: python3 -m unittest names.py
       - name: doctest
         working-directory: UnitTest 
