@@ -10,6 +10,9 @@ jobs:
       - name: install deps 
         run: pip3 install pandas
       - name: unittest
-        run: python3 -m unittest UnitTest/names.py
-      - name: doctest 
-        run: python3 -m doctest UnitTest/names.py
+        working-directory: UnitTest
+        run: python3 -m unittest names.py
+      - name: doctest
+        working-directory: UnitTest 
+        run: python3 -m doctest names.py
+          
