@@ -1,3 +1,5 @@
 Vivado/ecen323/
 .myenv*
 __pyc*
+UnitTest/unitC/build/
+
