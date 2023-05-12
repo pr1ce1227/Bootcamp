@@ -1,2 +1,4 @@
-.myenv*
-Vivado/ecen323	
+.myenv*	
+Vivado/ecen323/
+UnitTest/unitC/build/
+UnitTest/unitC/googletest/
