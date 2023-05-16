@@ -1,0 +1,23 @@
+#Documentation tools 
+Java:  JavaDocs 
+C, C++: Doxygen 
+Python: Sphinx 
+
+
+#sphinx install 
+
+#System Package Manager
+
+sudo apt-get install python3-sphinx
+
+pip install sphinx
+
+#After installing sphinx, create an empty directory. You can name your directory whatever you want but for demonstration purposes we will call our directory sphinx-docs.
+
+mkdir sphinx-docs
+
+#To prepare the directory to be used by sphinx run the following command:
+
+sphinx-quickstart <path to the directory you created>
+
+# Look up Restructured text cheat sheat for formating the text 

@@ -4,5 +4,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module practice(in_a, in_b, out);
+module practice(clk, in_a, in_b, out);
+input wire logic clk, in_a, in_b;  
+output logic out; 
+
+assign in_b = 1; 
+
+always_ff @(posedge clk) begin : And 
+    out <= in_a & in_b; 
+end
 endmodule
