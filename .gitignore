@@ -2,4 +2,7 @@ Vivado/ecen323/
 .myenv*
 __pyc*
 UnitTest/unitC/build/
-
+Vivado/practice/practice*
+Vivado/ecen220/
+Documentation/sphinx-docs/_build/
+Vivado/blockdesign/
